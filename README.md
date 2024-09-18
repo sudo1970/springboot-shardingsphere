@@ -1,4 +1,2 @@
 # springboot-shardingsphere
-
-使用shardingsphere进行分表数据插入
-
+使用ShardingSphere分布式数据库中间件实现分库分表功能
