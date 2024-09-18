@@ -4,6 +4,7 @@ package com.cq.distributedsharding;
 import com.cq.distributedsharding.dao.OrderDao;
 import com.cq.distributedsharding.entity.OrderEntity;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.shardingsphere.infra.hint.HintManager;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,5 +27,12 @@ public class DistributedshardingApplicationTest {
             orderEntity.setUserId(new Random().nextInt(999));
             orderDao.save(orderEntity);
         }
+    }
+
+    @Test
+    public void findByOrderId() {
+        HintManager.getInstance().setPrimaryRouteOnly();
+        OrderEntity byOrderId = orderDao.findByOrderId(1043134975278821377L);
+        log.info("byOrderId={}", byOrderId);
     }
 }
