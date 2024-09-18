@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="93cc023a-a2f6-4688-9437-6fc6d7333d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cq/distributedsharding/DistributedshardingApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cq/distributedsharding/DistributedshardingApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cq/distributedsharding/DistributedshardingApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cq/distributedsharding/DistributedshardingApplicationTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +78,22 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.DistributedshardingApplicationTest.insert">
+    <configuration name="DistributedshardingApplicationTest.findByOrderId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributedshardingsphere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cq.distributedsharding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cq.distributedsharding" />
+      <option name="MAIN_CLASS_NAME" value="com.cq.distributedsharding.DistributedshardingApplicationTest" />
+      <option name="METHOD_NAME" value="findByOrderId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DistributedshardingApplicationTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="distributedshardingsphere" />
       <extension name="coverage">
@@ -107,6 +126,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DistributedshardingApplicationTest.insert" />
+        <item itemvalue="JUnit.DistributedshardingApplicationTest.findByOrderId" />
         <item itemvalue="Spring Boot.DistributedshardingApplication" />
       </list>
     </recent_temporary>
@@ -125,7 +145,7 @@
       <workItem from="1726625704077" duration="3491000" />
       <workItem from="1726629214722" duration="3196000" />
       <workItem from="1726634665455" duration="1338000" />
-      <workItem from="1726636010730" duration="3707000" />
+      <workItem from="1726636010730" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="整理">
       <created>1726634904033</created>
@@ -155,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726639210232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改readme">
+      <created>1726639733088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726639733088</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/sudo1970/springboot-shardingsphere&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理" />
+    <MESSAGE value="修改readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改readme" />
   </component>
 </project>
